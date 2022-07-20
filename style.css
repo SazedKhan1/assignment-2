@@ -165,3 +165,53 @@ footer ul li a {
     color: blue;
     margin-left: 20px;
 }
+
+/* Meadia Quary */
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        border: none;
+        border-radius: 0;
+
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .match-schedule {
+        margin-left: 30px;
+    }
+
+    .main-banner {
+        margin-top: 320px;
+    }
+
+    .main-banner img {
+        width: 100%;
+    }
+
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .sidebar,
+    footer nav ul {
+        flex-direction: column;
+    }
+
+    .social-media {
+        font-size: 100%;
+    }
+}
