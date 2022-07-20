@@ -1,0 +1,167 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.container {
+    background-color: black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+
+/*--------
+  Player Content
+-----------*/
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header {
+    color: whitesmoke;
+    font-size: 60px;
+}
+
+.player-info {
+    width: 50%;
+    height: 500px;
+
+}
+
+.player-info p {
+    color: whitesmoke;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.player-info a {
+    background-color: brown;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 16px 20px;
+    border-radius: 5px;
+}
+
+.main-banner img {
+    width: 400px;
+    height: 560px;
+}
+
+/* --------------
+     sidebar
+-------------- */
+.sidebar {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+
+.match-schedule {
+    margin-top: 30px;
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    grid-column-gap: 30px;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.navigation a button {
+    background-color: whitesmoke;
+    width: 252px;
+    padding: 20px 21px;
+    border-radius: 5px;
+}
+
+.navigation a button.blog {
+    background-color: red;
+}
+
+.navigation a button:hover {
+    background-color: lightsalmon;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px;
+    grid-row-gap: 20px;
+}
+
+.match-history {
+    width: 312px;
+    margin-left: 20px;
+}
+
+/* Footer section */
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer h1 {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 40px;
+}
+
+footer h1 hr {
+    width: 50%;
+}
+
+footer nav {
+    background-color: black;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.social-media {
+    text-align: center;
+    font-size: 3em;
+
+}
+
+.social-media a {
+    color: blue;
+    margin-left: 20px;
+}
